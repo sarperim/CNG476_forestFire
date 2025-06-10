@@ -1,0 +1,4 @@
+<fireEvents>
+    <event time="300" node="0" temperature="80" smoke="yes" />
+    <event time="600" node="1" temperature="95" smoke="yes" />
+</fireEvents>

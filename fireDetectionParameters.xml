@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fireDetectionParameters>
+    <generalParameters>
+        <fireThreshold unit="Celsius">75.0</fireThreshold>
+        <sensingInterval unit="seconds">10</sensingInterval>
+        <alertDuration unit="seconds">30</alertDuration>
+    </generalParameters>
+
+    <environmentalSensors>
+        <sensor name="temperature" unit="Celsius" min="0" max="60" threshold="50"/>
+        <sensor name="humidity" unit="%" min="0" max="100" threshold="20"/>
+        <sensor name="smokeDensity" unit="ppm" min="0" max="500" threshold="100"/>
+        <sensor name="CO" unit="ppm" min="0" max="50" threshold="10"/>
+        <sensor name="CO2" unit="ppm" min="0" max="1000" threshold="600"/>
+        <sensor name="windSpeed" unit="km/h" min="0" max="100" threshold="30"/>
+    </environmentalSensors>
+</fireDetectionParameters>
